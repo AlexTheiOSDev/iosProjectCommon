@@ -10,6 +10,7 @@
 		6D2453491E02B8910087B855 /* iosProjectCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2453481E02B8910087B855 /* iosProjectCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D2453501E02B8910087B855 /* iosProjectCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2453451E02B8910087B855 /* iosProjectCommon.framework */; };
 		6D2453551E02B8910087B855 /* iosProjectCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2453541E02B8910087B855 /* iosProjectCommonTests.swift */; };
+		6D2453601E02BDAC0087B855 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24535F1E02BDAC0087B855 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6D24534F1E02B8910087B855 /* iosProjectCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosProjectCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2453541E02B8910087B855 /* iosProjectCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosProjectCommonTests.swift; sourceTree = "<group>"; };
 		6D2453561E02B8920087B855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D24535F1E02BDAC0087B855 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				6D2453481E02B8910087B855 /* iosProjectCommon.h */,
 				6D24534A1E02B8910087B855 /* Info.plist */,
+				6D24535F1E02BDAC0087B855 /* LoginViewController.swift */,
 			);
 			path = iosProjectCommon;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2453601E02BDAC0087B855 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 		6D24535A1E02B8920087B855 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +325,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sphere.iosProjectCommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6D24535B1E02B8920087B855 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
