@@ -10,6 +10,7 @@
 		6D2453491E02B8910087B855 /* iosProjectCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2453481E02B8910087B855 /* iosProjectCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D2453501E02B8910087B855 /* iosProjectCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2453451E02B8910087B855 /* iosProjectCommon.framework */; };
 		6D2453551E02B8910087B855 /* iosProjectCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2453541E02B8910087B855 /* iosProjectCommonTests.swift */; };
+		6D24536C1E02BE940087B855 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D24536B1E02BE940087B855 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6D24534F1E02B8910087B855 /* iosProjectCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosProjectCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2453541E02B8910087B855 /* iosProjectCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosProjectCommonTests.swift; sourceTree = "<group>"; };
 		6D2453561E02B8920087B855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D24536B1E02BE940087B855 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LoginStoryboard.storyboard; path = ../LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		6D2453471E02B8910087B855 /* iosProjectCommon */ = {
 			isa = PBXGroup;
 			children = (
+				6D24536B1E02BE940087B855 /* LoginStoryboard.storyboard */,
 				6D2453481E02B8910087B855 /* iosProjectCommon.h */,
 				6D24534A1E02B8910087B855 /* Info.plist */,
 			);
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D24536C1E02BE940087B855 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +382,7 @@
 				6D24535B1E02B8920087B855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D24535C1E02B8920087B855 /* Build configuration list for PBXNativeTarget "iosProjectCommonTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +391,7 @@
 				6D24535E1E02B8920087B855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
